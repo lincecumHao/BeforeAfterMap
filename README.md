@@ -1,4 +1,4 @@
-# BeforeAfterMap
+# BeforeAfterMap （Google Maps API V3)
 JQ Before After for google maps
 
 A simple example for using beforeAfter jq class.
