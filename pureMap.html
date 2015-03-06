@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
-<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
-<script type="text/javascript" src="js/jquery.beforeafter-map-0.12.js"></script>   
-
- <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?sensor=false">
-    </script>
+  <title>HTML Reference</title>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+  <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+  <script type="text/javascript" src="js/jquery.beforeafter-map-0.12.js"></script>   
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false">
+  </script>
   </head>
   <body>
 	<div id="map-container">   
@@ -22,14 +20,14 @@
 			
 		// Call the Before-After plugin, passing through the variables that you used to setup the maps, and (optional) any options you'd like
 		$('#map-container').beforeAfter(before,after,{
-        imagePath: './css/images/',
-        animateIntro : true,
-        introDelay : 800,
-        introDuration : 2000,
-        introPosition : .5,
-				beforeLinkText: 'show left',
-				afterLinkText: 'show right',
-        showFullLinks : true
+        		imagePath: './css/images/',
+        		animateIntro : true,
+        		introDelay : 800,
+        		introDuration : 2000,
+        		introPosition : .5,
+			beforeLinkText: 'show left',
+			afterLinkText: 'show right',
+        	showFullLinks : true
       });
 </script> 
  </body>
