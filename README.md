@@ -3,6 +3,8 @@ JQ Before After for google maps
 
 A simple example for using beforeAfter jq class.
 
+#[DEMO](http://lincecumhao.github.io/BeforeAfterMap)
+
 #Replace:
   (1)_before_.options.inertia = false; <br />
   (2)_before_._container<br />
